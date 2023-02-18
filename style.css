@@ -160,6 +160,13 @@ article.card:hover #comprar{
     
 }
 
+@media only screen and (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
 @media (min-width: 769px) {
     .card-group {
         grid-template-columns: repeat(4, 1fr);
